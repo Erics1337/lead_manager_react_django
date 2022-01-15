@@ -6,7 +6,7 @@ from .serializers import LeadSerializer
 # Viewsets allow you to create full CRUD api without having to specify explicit methods for the functionality ie generates urls for you
 
 class LeadViewSet(viewsets.ModelViewSet):
-    queryset = Leads.objects.all()
+    queryset = Lead.objects.all()
     permission_classes = [
         permissions.AllowAny
     ]
