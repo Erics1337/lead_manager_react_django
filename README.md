@@ -17,3 +17,15 @@ npm run dev
 # Build for production
 npm run build
 ```
+
+
+## Setup
+```
+pip3 install pipenv
+```
+```
+pipenv shell
+```
+```
+pipenv install django djangorestframework django-rest-knox
+```
