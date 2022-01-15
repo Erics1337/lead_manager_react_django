@@ -1,0 +1,35 @@
+{
+  "name": "lead_manager_react_django",
+  "version": "1.0.0",
+  "description": "> Full stack Django/React/Redux app that uses token based authentication with Knox.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./leadmanager/frontend/src/index.js --output-path ./leadmanager/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./leadmanager/frontend/src/index.js --output-path ./leadmanager/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erics1337/lead_manager_react_django.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erics1337/lead_manager_react_django/issues"
+  },
+  "homepage": "https://github.com/Erics1337/lead_manager_react_django#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
