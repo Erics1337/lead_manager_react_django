@@ -29,3 +29,14 @@ pipenv shell
 ```
 pipenv install django djangorestframework django-rest-knox
 ```
+Create Django App
+```
+python manage.py startapp leads
+```
+Setup Database
+```
+python manage.py makemigrations leads
+```
+```
+python manage.py migrate
+```
